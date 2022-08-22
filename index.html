@@ -39,15 +39,12 @@
                   />
                 </div>
                 <div class="col-3">
-                  <button
-                    type="button"
-                    id="currentbutton"
-                    value="CURRENT"
-                    class="btn btn-success"
-                  >
-                    Current
-                  </button>
+                  <button type="button" 
+                  id="currentbutton"
+                   value="CURRENT"
+                  class="btn btn-success">Current</button>
                 </div>
+                
               </div>
             </form>
             <div class="overview">
@@ -68,10 +65,8 @@
                   />
                   <strong id="temperature"></strong
                   ><span class="units">
-                    <a href="#" id="celsius-link" class="active">°C </a>|<a
-                      href="#"
-                      id="fahrenheit-link"
-                      class="hyperlink"
+                    <a href="#" id="celsius-link" class="active">°C </a
+                    >|<a href="#" id="fahrenheit-link" class="hyperlink"
                       >°F</a
                     ></span
                   >
@@ -85,21 +80,36 @@
                 </ul>
               </div>
             </div>
+            <div class="weather-forecast">
+            <div class="row">
+              <div class="col-2">
+                <div class="weather-forecast-date">Thu</div>
+                <img
+                  src="http://openweathermap.org/img/wn/50d@2x.png"
+                  alt=""
+                  width="42"
+                />
+                <div class="weather-forecast-temperatures">
+                  <span class="weather-forecast-temperature-max"> 18° </span>
+                  <span class="weather-forecast-temperature-min"> 12° </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <small>
-        <a
-          href="https://github.com/Queenesther1/Vanilla_Weather-App"
-          target="_blank"
-        >
-          Open source code
-        </a>
-        by Esther Babatunde
-      </small>
     </div>
-    <div></div>
-
+      <div>
+        
+    <small>
+          <a
+            href="https://github.com/Queenesther1/Vanilla_Weather-App"
+            target="_blank"
+          >
+            Open source code
+          </a>
+          by Esther Babatunde
+        </small>
+      </div>
     <script src="src/index.js"></script>
   </body>
 </html>

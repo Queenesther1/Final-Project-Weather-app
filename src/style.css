@@ -2,7 +2,7 @@ body {
   font-family: arial, sans-serif;
 }
 
-.container {
+.weather-app-wrapper {
   background-color: #adfcea;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -83,4 +83,22 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -4px;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
