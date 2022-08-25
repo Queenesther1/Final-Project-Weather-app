@@ -19,6 +19,10 @@ body {
   line-height: 48px;
   color: #272142;
 }
+.col-6 axis {
+  margin: 10px;
+  padding: 10px;
+}
 
 h1 {
   margin-bottom: 0;
