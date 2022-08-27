@@ -1,5 +1,6 @@
 body {
   font-family: arial, sans-serif;
+  display: block;
 }
 
 .weather-app-wrapper {
@@ -21,10 +22,17 @@ body {
 }
 .col-6 axis {
   max-width: 50%;
+  padding-left: 50px;
 }
 
 .col-6 {
   max-width: 50%;
+}
+
+.row {
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 h1 {
