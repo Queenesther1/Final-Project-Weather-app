@@ -20,8 +20,7 @@ body {
   color: #272142;
 }
 .col-6 axis {
-  margin: 20px;
-  padding: 20px;
+  max-width: 50%;
 }
 
 .col-6 {
