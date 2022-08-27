@@ -20,10 +20,6 @@ body {
   line-height: 48px;
   color: #272142;
 }
-.col-6 axis {
-  max-width: 50%;
-  padding-left: 50px;
-}
 
 .col-6 {
   max-width: 50%;
