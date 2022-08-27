@@ -49,6 +49,9 @@ li {
   line-height: 19px;
   display: block;
 }
+div {
+  display: block;
+}
 
 li:first-letter {
   text-transform: capitalize;
